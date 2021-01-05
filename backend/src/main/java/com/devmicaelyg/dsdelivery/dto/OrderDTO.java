@@ -2,8 +2,9 @@ package com.devmicaelyg.dsdelivery.dto;
 
 import com.devmicaelyg.dsdelivery.entities.Order;
 import com.devmicaelyg.dsdelivery.entities.OrderStatus;
-import com.devmicaelyg.dsdelivery.entities.Product;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.io.Serializable;
@@ -14,6 +15,7 @@ import java.util.stream.Collectors;
 
 @Getter
 @Setter
+//@AllArgsConstructor
 public class OrderDTO implements Serializable {
 
     private static final long serialVersionUID = 1L;
