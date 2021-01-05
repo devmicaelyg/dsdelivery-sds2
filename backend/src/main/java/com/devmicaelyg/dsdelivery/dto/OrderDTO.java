@@ -2,11 +2,8 @@ package com.devmicaelyg.dsdelivery.dto;
 
 import com.devmicaelyg.dsdelivery.entities.Order;
 import com.devmicaelyg.dsdelivery.entities.OrderStatus;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
-
 import java.io.Serializable;
 import java.time.Instant;
 import java.util.ArrayList;
