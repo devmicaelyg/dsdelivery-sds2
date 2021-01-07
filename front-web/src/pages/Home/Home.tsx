@@ -1,8 +1,10 @@
 import './style.css'
-import { ReactComponent as Landing } from '../../assets/landing.svg';
+import { ReactComponent as Landing } from '../../assets/landing2.svg';
+import Footer from '../../components/Footer';
 
 const Home = () => {
     return(
+        <>
         <div className="home-container">
             <div className="home-content">
                 <div className="home-actions">  
@@ -17,6 +19,8 @@ const Home = () => {
                 </div>
             </div>
         </div>
+        <Footer />
+        </>
     );
 }
 

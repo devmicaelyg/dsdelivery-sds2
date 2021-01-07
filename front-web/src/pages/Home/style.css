@@ -1,6 +1,6 @@
 .home-container {
     padding-top: 100px;
-    height: calc(100vh - 254px);
+    height: calc(100vh - 270px);
   }
   
   .home-container h1 {
@@ -42,7 +42,7 @@
     font-weight: bold;
     font-size: 24px;
     letter-spacing: -0.015em;
-    color: #FFF;
+    color: #263238;
   }
   
   .home-btn-order:hover {

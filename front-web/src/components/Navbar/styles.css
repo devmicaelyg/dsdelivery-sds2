@@ -1,5 +1,5 @@
 .main-navbar{
-    background-color: #DA5C5C;
+    background-color: #5CE0C0;
     height: 70px;
     padding-left: 45px;
     display: flex;
@@ -12,5 +12,5 @@
     font-size: 24px;
     line-height: 33px;
     letter-spacing: -0.015em;
-    color: white;
+    color: #263238;
 }

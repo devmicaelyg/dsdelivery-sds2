@@ -1,6 +1,6 @@
 import { isExportDeclaration } from "typescript";
 
-import { ReactComponent as Logo } from '../../assets/logo.svg';
+import { ReactComponent as Logo } from '../../assets/logo2.svg';
 import './styles.css';
 
 const Navbar = () => {
@@ -11,5 +11,4 @@ const Navbar = () => {
         </nav>
      );
 }
-
 export default Navbar;
