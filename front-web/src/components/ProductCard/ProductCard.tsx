@@ -1,4 +1,3 @@
-import { ReactComponent as Livro} from '../../assets/livro.svg';
 import { Product } from '../../models/ProductModel';
 import { formatPrice } from '../../pages/Orders/helpers';
 

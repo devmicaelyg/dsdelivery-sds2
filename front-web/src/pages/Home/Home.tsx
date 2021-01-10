@@ -1,7 +1,8 @@
-import './style.css'
-import { ReactComponent as Landing } from '../../assets/landing3 .svg';
-import Footer from '../../components/Footer';
 import { Link } from 'react-router-dom';
+
+import { ReactComponent as Landing } from '../../assets/landing3 .svg';
+
+import './style.css'
 
 const Home = () => {
     return(
