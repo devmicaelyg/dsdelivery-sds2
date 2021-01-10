@@ -1,5 +1,5 @@
 import './style.css'
-import { ReactComponent as Landing } from '../../assets/landing2.svg';
+import { ReactComponent as Landing } from '../../assets/landing3 .svg';
 import Footer from '../../components/Footer';
 import { Link } from 'react-router-dom';
 
@@ -10,7 +10,7 @@ const Home = () => {
             <div className="home-content">
                 <div className="home-actions">  
                     <h1 className="home-title">Faça seu pedido <br/>que entregamos <br/>pra você!!!</h1>
-                    <h3 className="home-subtitle">Escolha o seu pedido e em poucos minutos<br/> levaremoss na sua porta</h3>
+                    <h3 className="home-subtitle">Escolha a sua camisa e em poucos minutos<br/> levaremos na sua porta</h3>
                     <Link to="/orders" className="home-btn-order">
                         FAZER PEDIDO
                     </Link>
