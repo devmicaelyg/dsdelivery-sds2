@@ -1,15 +1,17 @@
 import ProductCard from "../../components/ProductCard/ProductCard"
+import { ProductModel } from "../../models/ProductModel";
 
-const ProductsList = () => {
+type Props = {
+    products: ProductModel[];
+}
+
+function ProductsList({products}: Props) {
     return(
         <div className="orders-list-container">
             <div className="orders-list-items">
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
+                {products.map( product => (
+                    <ProductCard key={product.id} product={product}/>
+                ))}
             </div>
         </div>
     )

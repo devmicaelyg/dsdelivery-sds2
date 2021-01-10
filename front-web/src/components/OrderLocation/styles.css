@@ -1,0 +1,9 @@
+  
+  .order-location-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: var(--secondary-color);
+  }
