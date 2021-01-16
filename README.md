@@ -11,6 +11,7 @@ Para executar o projeto é necessário que você tenha:
 - Maven: Para a realização do build do projeto 
 - IntelliJ: Para o desenvolvimento do back-end
 - Editor de texto: Para a desenvolvimento do front-end
+- PostGreSQL e h2: São os bancos de dados utilizados 
 
 ## Desenvolvimento 
 
